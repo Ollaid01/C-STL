@@ -31,7 +31,19 @@ int main() {
     cout << "Comma at : " << ("Hello, How are you ?"s).find(',') << endl;
     cout << line << endl;
 
+    // Append to string
+    string about("is a programmer");
+    name.push_back(' ');
+    for (char c : about) {
+        name.push_back(c);
+    }
+    // name.append(about);
+    cout << name << endl;
+    cout << line << endl;
 
+    // Insert into string
+    name.insert(0, "I have heard that ");
+    cout << line << endl;
 
 
     return 0;
