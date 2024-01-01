@@ -43,7 +43,10 @@ int main() {
 
     // Insert into string
     name.insert(0, "I have heard that ");
+    cout << name << endl;
     cout << line << endl;
+
+    // 
 
 
     return 0;
