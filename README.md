@@ -10,6 +10,10 @@ All containers except the Adapters have ITERATORS that can be used to access the
     - Ordered in a strict linear sequence. 
     - Contiguous memory block (array, vector) and not for (deque, forward_list, list)
 
+#### Vector : 
+    - Sequence containers representing arrays that can change in size
+    - Are allocated in contiguous blocks of memory = They can be accessed via Pointer arithmetic OR [Index]
+
 ### Associative containers : 
     - elements are accessed by 'key'.
     - Order can be more loosely, optimized for searching algorithms.
